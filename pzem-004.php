@@ -1,9 +1,9 @@
 <?php
 $servername = "192.168.1.31"; //192.168.1.31
 // REPLACE with your Database name
-$dbname = "power_meter";
+$dbname = "meter";
 // REPLACE with Database user
-$username = "root"; //phpmyadmin
+$username = "user_php"; //phpmyadmin
 // REPLACE with Database user password
 $password = "1234"; //raspberry
 // Create connection + Check connection 
@@ -27,7 +27,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
         
-$sql = "INSERT INTO power_room403 (
+$sql = "INSERT INTO room (
             Voltage, 
             Current, 
             Frequency, 
