@@ -2,7 +2,7 @@
 $servername = "192.168.1.31";  // IP ของเซิร์ฟเวอร์ MySQL
 $username = "root";            // ชื่อผู้ใช้ MySQL
 $password = "IN673nJuQV5YP5kI"; // รหัสผ่าน
-$dbname = "GreenPower_1";      // ชื่อฐานข้อมูล
+$dbname = "ch_rungrueang";      // ชื่อฐานข้อมูล
 
 // ใช้ try-catch เพื่อจัดการข้อผิดพลาดในการเชื่อมต่อ
 try {
